@@ -2,17 +2,44 @@
 <html>
   <head>
     <title>Asteroids</title>
-
+		<style>
+		
+		h1 {
+			text-align: center;
+		}
+		
+		canvas {
+			display: block;
+			margin: auto;
+		}
+		
+		div {
+			display: block;
+			margin: auto;
+		}
+		
+		div p {
+			text-align: center;
+		}
+		
+		</style>
   </head>
 
   <body>
+		
+		<h1>Asteroids</h1>
 
     <canvas
       id="game-canvas"
-      width="1000"
-      height="1000"
+      width="500"
+      height="500"
       style="border:1px solid #000000;">
     </canvas>
+		
+		<div>
+			<p>Use directional arrows to move green spaceship</p>
+			<p>And space bar to fire bullets</p>
+		</div>
     <script src="keymaster.js"></script>
     <script src="lib/movingObject.js"></script>
     <script src="lib/utils.js"></script>
@@ -21,7 +48,7 @@
     <script src="lib/bullet.js"></script>
     <script src="lib/game.js"></script>
     <script src="lib/gameView.js"></script>
-    
+
 
     <script>
       var canvasEl = document.getElementById("game-canvas");
