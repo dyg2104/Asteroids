@@ -1,5 +1,4 @@
 Handles the logic of the game using a cartesian coordinate system.
-
 Renders the game visually in a HTML5 canvas element.
 
 To accomplish this, the game contains the following objects:
